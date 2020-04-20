@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body {
+    font-family: 'Lato';
+    font-size: 1em;
+}
+
+p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    border: solid;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 1%;
+    border-collapse: collapse;
+    margin: 1% auto;
+}
+
+input {
+    font-family: 'Lato';
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+}
+
+tr:first-child {
+    background-color: rgb(54, 48, 74);
+    color: white;
+}
+
+tr:not(:first-child) {
+    color: rgb(100, 100, 100);
+}
+
+.special {
+    width: 180px;
+}
+
+.specialTable {
+    width: 100px;
+}
+
+button {
+    background-color: white;
+    border: solid rgb(54, 48, 74);
+    font-family: 'Lato';
+    font-size: 12px;
+    margin: 1% 0;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(54, 48, 74);
+    cursor: pointer;
+}
